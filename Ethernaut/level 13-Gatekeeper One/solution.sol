@@ -3,7 +3,6 @@ pragma solidity ^0.8.13;
 
 contract Attack{
     address public target;
-    bool public top = false;
     bytes8 public data=0xaaaaaaaa0000b0B6;
     
     constructor(address _target){
